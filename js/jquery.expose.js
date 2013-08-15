@@ -13,12 +13,12 @@
  */
  (function($){
   function removeOverlays() {
-    $('.overlay').remove();
+    $('.expose-overlay').remove();
     $("body").trigger("expose:overlay:removed");
   }
 
   function showOverlay(x0, y0, x1, y1, options) {
-    var overlay = $('<div class="overlay"></div>').css({
+    var overlay = $('<div class="expose-overlay"></div>').css({
       position: 'absolute',
       top: y0 + 'px',
       left: x0 + 'px',
