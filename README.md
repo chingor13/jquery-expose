@@ -9,7 +9,7 @@ Create a modal backdrop over everything except specified exposed elements
 
 ## Motivation
 
-Sometimes you want to highlight elements on a page.  Many techniques out there will but a backdrop over the entire document and try to bring elements to the forefront via relative positioning and z-indexes.  This can fail for many display types (individual table rows, fixed position elements). Additionally, you have to ensure that the element will stand out in front of the backdrop (white background or something similar).
+Sometimes you want to highlight elements on a page.  There are many techniques out there will but a backdrop over the entire document and try to bring elements to the forefront via relative positioning and z-indexes.  This can fail for many display types (individual table rows, fixed position elements). Additionally, you have to ensure that the element will stand out in front of the backdrop (white background or something similar).
 
 To get around this, instead of highlighting the element, we will obscure everything else on the page except the elements that we want to show through.
 
